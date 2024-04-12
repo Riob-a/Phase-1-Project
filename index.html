@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Phase-1 project</title>
+    <link rel="stylesheet" href="css/index.css">
+  </head>
+
+<body background="assets/background 2.jpg">
+
+<!--eka gh pages kwa readme-->
+    
+<!--navbar-->
+   <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html"><b>ArtCollective</b></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+   </nav><br>
+<!--navbar end-->
+<!--form start-->
+<h1>Enter your paintings details</h1>
+   <div class="container rounded text-white">
+
+  <form id="art-form">
+    <div class="mb-3">
+      <label for="name" class="form-label" >Name</label>
+      <input type="text" class="form-control" id="name" placeholder="Name">  
+    </div>
+
+    <div class="mb-3">
+      <label for="title" class="form-label">Description</label>
+      <input type="text" class="form-control" id="description" placeholder="Description">
+    </div>
+
+    <div class="mb-3">
+      <label for="painting" class="form-label">Paintings Address</label>
+      <input type="text" class="form-control" id="painting" placeholder="Painting url:">
+    </div>
+    
+    <button type="submit" class="btn btn-info">Submit</button>
+  </form>
+  </div><br>
+<!--form end-->
+
+<!--cards start-->
+<div class="container-sm rounded">
+  <div class="column-fluid">
+    <ul id="List-paintings" class="#">
+          <!--cards here-->
+    </ul>
+  </div>
+</div>
+<!--cards end here-->
+
+
+
+<script src="js folder/index.js"></script>
+
+ </body>
+</html>
+

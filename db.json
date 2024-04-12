@@ -1,0 +1,39 @@
+{
+  "artwork": [
+    {
+      "id": "1",
+      "name": "John Chase",
+      "description": "The first painting",
+      "painting": "assets/image 1.jpg",
+      "price": 1000
+    },
+    {
+      "id": "2",
+      "name": "James Williams",
+      "description": "The second painting",
+      "painting": "assets/image 2.jpg",
+      "price": 2000
+    },
+    {
+      "id": "3",
+      "name": "Chris Brown",
+      "description": "The third painting",
+      "painting": "assets/image 3.jpg",
+      "price": 3000
+    },
+    {
+      "id": "4",
+      "name": "James Lebron",
+      "description": "The fourth painting",
+      "painting": "assets/image 4.jpg",
+      "price": 4000
+    },
+    {
+      "id": "5",
+      "name": "Biggie Smalls",
+      "description": "The fifth painting",
+      "painting": "assets/image 5.jpg",
+      "price": 5000
+    }
+  ]
+}
