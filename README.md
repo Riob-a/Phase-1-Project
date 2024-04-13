@@ -25,7 +25,7 @@ Git clone https://github.com/Riob-a/.git
 ```
 
 # Live Link
-[Git](gh-pages link)
+ https://riob-a.github.io/Phase-1-Project/
 
 ## Technologies used
 1. HTML

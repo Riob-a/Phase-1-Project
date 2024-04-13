@@ -1,4 +1,3 @@
-//eka gh pages kwa readme
 //$ npx json-server db.json
 //https://phaseone-project-db.onrender.com/artwork
 
