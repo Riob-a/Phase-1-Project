@@ -1,6 +1,8 @@
 //eka gh pages kwa readme
 //$ npx json-server db.json
-//
+//https://phaseone-project-db.onrender.com/artwork
+
+//Function that targets and adds the data from the submission field into the db
 document.getElementById("art-form").addEventListener("submit", handleSubmission)
 //Code event handlers
 function handleSubmission(e){
@@ -35,13 +37,13 @@ document.getElementById("List-paintings").appendChild(paintingsCard)
 
 //
 function getAllPaintings(){
-fetch("http://localhost:3000/artwork")
+fetch("https://phaseone-project-db.onrender.com/artwork")
    .then(response => response.json())
    .then(artwork =>  artwork.forEach(art => displayPaintings(art)))
 }
 //
 function displayNewPainting(paintObj){
-fetch("http://localhost:3000/artwork",{
+fetch("https://phaseone-project-db.onrender.com/artwork",{
          method:"POST",
          headers:{
             "Content-type": "appllication/json"
